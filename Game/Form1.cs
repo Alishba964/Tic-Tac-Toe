@@ -15,13 +15,33 @@ namespace Game
         public Form1()
 
         {
-            //starting
+            //starting..
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             //Alishba Starting 
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
 
         }
     }
