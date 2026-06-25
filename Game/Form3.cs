@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Game
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,8 +26,8 @@ namespace Game
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 play=new Form3();
-            play.Show();
+            Form2 mainpage=new Form2();
+            mainpage.Show();
             this.Hide();
         }
     }

@@ -248,7 +248,7 @@ namespace Game
         }
         private void Winner(string player)
         {
-            label7.Text = player + " WINS!";
+            label7.Text = "🎉 PLAYER " + player + " WINS! 🎉 ";
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -258,6 +258,19 @@ namespace Game
 
         private void label7_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Form2 home=new Form2();
+            home.Show();
+            this.Hide();
 
         }
     }
